@@ -5,7 +5,7 @@ These snippets cover a range of functionalities (all functionalities is listed b
 
 Features included in this collection:
 - Database Configuration
-  - PostgreSQL
+  - PostgreSQL ✅
   - MongoDB
   - Redis
   - Prometheus
