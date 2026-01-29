@@ -9,6 +9,9 @@ Features included in this collection:
   - MongoDB
   - Redis
   - Prometheus
+- BaseEntity Setup
+  - Auditing (CreatedAt, UpdatedAt, CreatedBy, UpdatedBy)
+  - Soft Delete
 - Security
   - JWT Authentication Refresh Token
   - Rate Limiting
