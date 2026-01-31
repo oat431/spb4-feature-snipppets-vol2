@@ -11,8 +11,8 @@ Features included in this collection:
   - TimescaleDB
   - Prometheus 
 - BaseEntity Setup
-  - Auditing (CreatedAt, UpdatedAt, CreatedBy, UpdatedBy)
-  - Soft Delete
+  - Auditing (CreatedAt, UpdatedAt) ✅
+  - Soft Delete ✅
 - Security
   - JWT Authentication Refresh Token
   - Rate Limiting
