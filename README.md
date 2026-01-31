@@ -8,7 +8,8 @@ Features included in this collection:
   - PostgreSQL ✅
   - MongoDB
   - Redis
-  - Prometheus
+  - TimescaleDB
+  - Prometheus 
 - BaseEntity Setup
   - Auditing (CreatedAt, UpdatedAt, CreatedBy, UpdatedBy)
   - Soft Delete
