@@ -5,7 +5,7 @@ import lombok.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import panomete.project.spb4featsnip2.common.BaseEntity;
+import panomete.project.spb4featsnip2.common.entity.BaseEntity;
 
 import java.util.Collection;
 import java.util.List;

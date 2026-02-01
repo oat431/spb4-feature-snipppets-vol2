@@ -7,3 +7,15 @@ spring:
     hibernate:
       ddl-auto: update
     database: PostgreSQL
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: always
+
+server:
+  port: 8080

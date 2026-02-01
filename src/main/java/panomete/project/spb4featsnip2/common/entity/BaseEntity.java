@@ -1,4 +1,4 @@
-package panomete.project.spb4featsnip2.common;
+package panomete.project.spb4featsnip2.common.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

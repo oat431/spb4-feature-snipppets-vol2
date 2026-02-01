@@ -6,11 +6,37 @@ spring:
   threads:
     virtual:
       enabled: true
+
+springdoc:
+  swagger-ui:
+    path: /api-ui
+    try-it-out-enabled: true
+    filter: true
+    operations-sorter: alpha
+    tags-sorter: alpha
+    syntax-highlight:
+      theme: monokai
+  api-docs:
+    path: /api-docs
+  show-actuator: true
+
+
 logging:
   level:
     root: INFO
-    org.springframework.web: DEBUG
-    panomete.project.spb4featsnip2: DEBUG
+    org.springframework.web: INFO
+    panomete.project.spb4featsnip2: INFO
     org.hibernate: INFO
   pattern:
     console: "%clr(%d{${LOG_DATEFORMAT_PATTERN:yyyy-MM-dd HH:mm:ss.SSS Z}}){magenta} |  %clr(${LOG_LEVEL_PATTERN:%-5p}) | %clr(%-40.40logger{39}){cyan} | %clr(%-25.25M){yellow} | %m%n${LOG_EXCEPTION_CONVERSION_WORD:%wEx}"
+
+management:
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: Spring Boot 4 Personal Feature Snippet Volume 2
+    description: A Spring Boot 4 application demonstrating custom feature.
+    version: 1.0.0

@@ -2,7 +2,7 @@ package panomete.project.spb4featsnip2.auth.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import panomete.project.spb4featsnip2.common.BaseEntity;
+import panomete.project.spb4featsnip2.common.entity.BaseEntity;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
