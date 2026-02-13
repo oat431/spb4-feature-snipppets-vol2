@@ -21,3 +21,4 @@ Features included in this collection:
   - RabbitMQ
   - Kafka
 - External API Integrations
+- unit testing in each topic
